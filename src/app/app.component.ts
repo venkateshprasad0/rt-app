@@ -27,6 +27,9 @@ export class AppComponent {
           console.log("Bio: ",data.bio);
           console.log("Company: ",data.company);
           console.log("Login: ",data.login);
+        },
+        err => {
+          console.log("Error occured");
         }
       );
   }

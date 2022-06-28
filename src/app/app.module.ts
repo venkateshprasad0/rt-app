@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { OrderComponent } from './order/order.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductComponent } from './product/product.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OrderComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    ProductComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
